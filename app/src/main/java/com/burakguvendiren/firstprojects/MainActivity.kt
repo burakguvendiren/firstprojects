@@ -45,6 +45,13 @@ class MainActivity : AppCompatActivity() {
         var yeniInteger : Int = 20
         println(benimIntegerim / 2)
 
+        //Long
+        println ("-----Int-----")
+
+        var myLong : Long = 100
+        myLong = 30000000
+        println(myLong)
+
 
 
     }
