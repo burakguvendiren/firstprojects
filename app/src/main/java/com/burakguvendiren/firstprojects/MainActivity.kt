@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
         println ("Hello  World")
 
         //değişkenler ve sabitler
+        //Integer
+
+        println ("-----Int-----")
+
+
         println (5 * 10)
         var a = 5
         var b = 10
@@ -32,6 +37,13 @@ class MainActivity : AppCompatActivity() {
         val yasSonucu = old * x
         println(yasSonucu)
 
+        //Tanımlama (Defining)
+        val benimIntegerim : Int
+
+        //Başlatma, Değerini Atama (Initializing, Inilitiazation)
+        benimIntegerim = 5
+        var yeniInteger : Int = 20
+        println(benimIntegerim / 2)
 
 
 
