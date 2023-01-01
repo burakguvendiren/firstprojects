@@ -52,6 +52,16 @@ class MainActivity : AppCompatActivity() {
         myLong = 30000000
         println(myLong)
 
+        //Double & Float
+        println ("-----Double & Float-----")
+        val pi = 3.14
+        println(pi*2)
+
+        val floatPi : Float = 3.14f
+        println(floatPi * 2)
+        val yeniDouble = 5.0
+        println(yeniDouble / 2)
+
 
 
     }
