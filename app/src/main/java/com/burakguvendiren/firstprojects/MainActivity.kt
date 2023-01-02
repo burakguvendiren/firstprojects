@@ -108,6 +108,22 @@ class MainActivity : AppCompatActivity() {
         val kullaniciInt = kullaniciGirdisi.toInt()
         println(kullaniciInt / 2)
 
+        //Koleksiyonlar
+
+        //Array - Dizi
+        println ("-----Dizi-----")
+
+        val stringOrnegi = "Burak"
+
+        val benimDizim = arrayOf(stringOrnegi,"Burak","Güvendiren","Marcus","Aurelius")
+
+        //index
+        println(benimDizim[0])
+        println(benimDizim.get(1))
+        println(benimDizim.get(2))
+        benimDizim[2] = "Mahmut"
+        println(benimDizim.get(2))
+
 
 
     }
