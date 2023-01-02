@@ -63,6 +63,23 @@ class MainActivity : AppCompatActivity() {
         println(yeniDouble / 2)
 
 
+        //String - Metin
+        println ("-----String - Metin-----")
+
+        val benimString = "Benim Yeni Metnim"
+        println(benimString.length)
+
+        val isim = "Burak"
+        val soyisim = "Güvendiren"
+        val tamisim = isim + " " + soyisim
+        println(tamisim)
+
+        val yeniBirString : String
+        yeniBirString = "10"
+
+        val baskaBirString = "20"
+        println(yeniBirString+baskaBirString)
+
 
     }
 }
