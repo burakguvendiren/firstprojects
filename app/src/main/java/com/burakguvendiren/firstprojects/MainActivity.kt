@@ -80,6 +80,24 @@ class MainActivity : AppCompatActivity() {
         val baskaBirString = "20"
         println(yeniBirString+baskaBirString)
 
+        //boolean
+        println ("-----Boolean-----")
+
+        var benimBoolean = true
+        benimBoolean = false
+
+        // < -> küçüktür
+        // > -> büyüktür
+        // == -> eşittir
+        // != -> eşit değildir
+        // >= -> büyük eşittir
+        // && -> ve
+        // || -> veya
+
+        println(3<5)
+        println(4!=4)
+
+
 
     }
 }
