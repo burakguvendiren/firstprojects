@@ -131,5 +131,27 @@ class MainActivity : AppCompatActivity() {
 
         val karisikDizi = arrayOf("Burak,24,16.5,true,false")
         println(karisikDizi.get(3))
+
+        //ArrayList - Listeler
+        println ("-----ArrayList-----")
+
+        val isimListesi = arrayListOf<String>("Burak","Güvendiren","Stoa")
+        println(isimListesi[0])
+        println(isimListesi.get(1))
+
+        isimListesi.add("Mehmet")
+        isimListesi.add("Atlas")
+        println(isimListesi.get(4))
+
+        val karisikArrayList = arrayListOf<Any>()
+        karisikArrayList.add("Burak")
+        karisikArrayList.add(5)
+        karisikArrayList.add(true)
+
+        val intArrayList = ArrayList<Int>()
+        intArrayList.add(5)
+        intArrayList.add(20)
+        println(intArrayList.get(1))
+
     }
 }
