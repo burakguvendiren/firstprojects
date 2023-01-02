@@ -97,6 +97,17 @@ class MainActivity : AppCompatActivity() {
         println(3<5)
         println(4!=4)
 
+        //Veri Tipi Dönüştürme
+        println ("-----Dönüştürme-----")
+
+        val benimInt = 10
+        val benimLongaCevrilenInt = benimInt.toLong()
+        println(benimLongaCevrilenInt)
+
+        val kullaniciGirdisi = "50"
+        val kullaniciInt = kullaniciGirdisi.toInt()
+        println(kullaniciInt / 2)
+
 
 
     }
