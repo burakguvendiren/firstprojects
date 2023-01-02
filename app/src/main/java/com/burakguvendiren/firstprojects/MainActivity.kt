@@ -123,8 +123,13 @@ class MainActivity : AppCompatActivity() {
         println(benimDizim.get(2))
         benimDizim[2] = "Mahmut"
         println(benimDizim.get(2))
+        benimDizim.set(3,"Mehmet")
+        println(benimDizim[3])
 
+        val numaraDizisi = doubleArrayOf(1.0,2.0,3.0)
+        println(numaraDizisi.get(2))
 
-
+        val karisikDizi = arrayOf("Burak,24,16.5,true,false")
+        println(karisikDizi.get(3))
     }
 }
