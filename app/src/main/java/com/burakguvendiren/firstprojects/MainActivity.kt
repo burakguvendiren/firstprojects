@@ -230,6 +230,23 @@ class MainActivity : AppCompatActivity() {
         //Remainder - Kalanı Bulmak
         println(10%2)
 
+        //If Kontrolleri
+
+        println("-----If Statements (If Kontrolleri)-----")
+
+        val skor = 20
+        if (skor < 10 ) {
+            println("Oyunu Kaybettin!")
+        } else if (skor >= 10 && skor < 20) {
+            println("Skorun 10 ve 20 arasında, çok iyi skor aldın")
+        } else if (skor >= 20 && skor < 30) {
+            println("Skorun 20 ve 30 arasında, rekor kırıyorsun")
+        } else {
+            println("Skorun 30'un üstünde, efsane oynadın")
+        }
+
+
+
 
 
 
