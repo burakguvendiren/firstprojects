@@ -183,6 +183,28 @@ class MainActivity : AppCompatActivity() {
             println(it)
         }
 
+        //Map
+
+        println("-----Map-----")
+
+        //Anahtar Kelime - Değer ( Key - Value Pairing )
+
+        val yemekDizisi = arrayOf("Elma","Et","Tavuk")
+        val kaloriDizisi = arrayOf(100,300,200)
+        println("${yemekDizisi[0]}'nın kalorisi: ${kaloriDizisi[0]}")
+
+        val yemekKaloriMap = hashMapOf<String, Int>()
+        yemekKaloriMap.put("Elma", 100)
+        yemekKaloriMap.put("Et",300)
+        yemekKaloriMap.put("Tavuk",200)
+        println(yemekKaloriMap.get("Et"))
+
+        val benimMapim = HashMap<String, String>( )
+        benimMapim.put("Örnek", "Değer")
+
+        val yeniMap = hashMapOf<String, Int>("Burak" to 40,"Örnek" to 50)
+        println(yeniMap.get("Örnek"))
+
 
 
     }
