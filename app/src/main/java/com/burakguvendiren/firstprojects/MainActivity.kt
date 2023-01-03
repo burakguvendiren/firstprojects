@@ -205,6 +205,33 @@ class MainActivity : AppCompatActivity() {
         val yeniMap = hashMapOf<String, Int>("Burak" to 40,"Örnek" to 50)
         println(yeniMap.get("Örnek"))
 
+        //Math Transactions
+
+        println("-----Math Transactions-----")
+
+        var sayi = 8
+        println(sayi)
+        sayi = sayi + 1
+        println(sayi)
+        sayi++
+        println(sayi)
+        sayi--
+        println(sayi)
+
+        var digerSayi = 10
+        println(digerSayi > sayi)
+
+        // && -> VE
+        // || -> VEYA
+
+        println(digerSayi > sayi && 2 > 3)
+        println(digerSayi > sayi || 2 > 3)
+
+        //Remainder - Kalanı Bulmak
+        println(10%2)
+
+
+
 
 
     }
