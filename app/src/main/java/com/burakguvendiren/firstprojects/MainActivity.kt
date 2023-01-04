@@ -245,10 +245,43 @@ class MainActivity : AppCompatActivity() {
             println("Skorun 30'un üstünde, efsane oynadın")
         }
 
+        //When - Switch
 
+        println("-----When-----")
 
+        var notRakami = 2
+        var notStringi = ""
 
+        when(notRakami) {
+            0 -> notStringi = "Geçersiz Not"
+            1 -> notStringi = "Zayıf"
+            2 -> notStringi = "Kötü"
+            3 -> notStringi = "Orta"
+            4 -> notStringi = "İyi"
+            else -> notStringi = "Pek İyi"
+        }
 
+        /*
+
+        if (notRakami == 0) {
+            notStringi = "Geçersiz Not"
+        }
+            else if (notRakami == 1) {
+                notStringi = "Zayıf"
+            }
+        else if (notRakami == 2) {
+            notStringi = "Kötü"
+        }
+        else if (notRakami == 3) {
+            notStringi = "Orta"
+        }
+        else if (notRakami == 4) {
+            notStringi = "İyi"
+        }
+        else if (notRakami == 5) {
+            notStringi == "Pekiyi"
+        }
+         */
 
 
     }
