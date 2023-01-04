@@ -253,6 +253,7 @@ class MainActivity : AppCompatActivity() {
         var notStringi = ""
 
         when(notRakami) {
+
             0 -> notStringi = "Geçersiz Not"
             1 -> notStringi = "Zayıf"
             2 -> notStringi = "Kötü"
@@ -282,6 +283,39 @@ class MainActivity : AppCompatActivity() {
             notStringi == "Pekiyi"
         }
          */
+
+        //Döngüler
+
+        println("-----For Döngüsü-----")
+
+        val baskaBirDizi = arrayOf( 5,10,15,20,25,30)
+        val q = baskaBirDizi[0] / 5 + 3
+        println(q)
+
+        println("döngü başladı")
+        for (num in baskaBirDizi) {
+            println(num / 5 + 3)
+        }
+        println("döngü bitti")
+
+        for (indeks in baskaBirDizi.indices) {
+            println(baskaBirDizi[indeks] / 5 + 3)
+        }
+        for (b in 0..9) {
+            println(b)
+        }
+
+        val benimDigerStringDizim = ArrayList<String>( )
+        benimDigerStringDizim.add("Burak")
+        benimDigerStringDizim.add("Güvendiren")
+
+        for (str in benimDigerStringDizim) {
+            println(str)
+        }
+
+        benimDigerStringDizim.forEach {
+            println(it)
+        }
 
 
     }
