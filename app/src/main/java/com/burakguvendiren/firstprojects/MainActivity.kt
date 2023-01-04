@@ -317,6 +317,15 @@ class MainActivity : AppCompatActivity() {
             println(it)
         }
 
+        //While
+
+        println("-----While Döngüsü-----")
+
+        var j = 0
+        while (j <= 10) {
+            println(j)
+            j = j +1
+        }
 
     }
 
